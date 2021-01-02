@@ -1,0 +1,40 @@
+.home{
+    max-width: 1080px;
+    margin: 20px auto;
+}
+
+.home__header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.home__add-button{
+    height: 35px;
+    align-self: center;
+    padding: 0 20px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    font-size: 15px;
+    background-color: rgb(56, 192, 85);
+    color: white;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 150ms ease-in 0s;
+}
+
+.home__add-button:hover{
+    background-color: rgb(112, 216, 112);
+}
+
+.home__add-button:active{
+    background-color: rgb(31, 160, 37);
+}
+
+.home__body{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

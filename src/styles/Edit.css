@@ -1,0 +1,50 @@
+.edit__container{
+    max-width: 1080px;
+    margin: 100px auto;
+}
+
+.form-edit{
+    max-width: 380px;
+    margin: 0 auto;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.form-edit__field{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-edit__input{
+    height: 30px;
+    padding-left: 15px;
+    border: 1px solid lightgray;
+    outline: none;
+    border-radius: 3px;
+}
+
+.form-edit__button{
+    height: 35px;
+    align-self: center;
+    padding: 0 50px;
+    background-color: rgb(56, 192, 85);
+    border: none;
+    outline: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 3px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 150ms ease-in 0s;
+}
+
+.form-edit__button:hover{
+    background-color: rgb(112, 216, 112);
+}
+
+.form-edit__button:active{
+    background-color: rgb(31, 160, 37);
+}

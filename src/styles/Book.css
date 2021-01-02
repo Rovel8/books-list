@@ -1,0 +1,74 @@
+.book{
+
+}
+
+.book__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book__title{
+    text-align: center;
+}
+
+.info-book{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.info-book__item{
+    margin-bottom: 10px;
+}
+
+.info-book__about{
+    font-weight: 600;
+}
+
+.info-book__actions{
+    
+}
+
+.info-book--edit{
+    padding: 0 10px;
+    height: 25px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    background-color: rgb(227, 230, 75);
+    border-radius: 3px;
+    cursor: pointer;
+    color: black;
+    font-weight: 500;
+}
+
+.info-book--edit:hover{
+    background-color: rgb(241, 243, 113);
+}
+
+.info-book--edit:active{
+    background-color: rgb(190, 192, 47);
+}
+
+.info-book--delete{
+    padding: 0 10px;
+    height: 25px;
+    border: none;
+    margin-left: 10px;
+    outline: none;
+    text-transform: uppercase;
+    background-color: rgb(227, 230, 75);
+    border-radius: 3px;
+    cursor: pointer;
+    color: black;
+    font-weight: 500;
+}
+
+.info-book--delete:hover{
+    background-color: rgb(241, 243, 113);
+}
+
+.info-book--delete:active{
+    background-color: rgb(190, 192, 47);
+}
